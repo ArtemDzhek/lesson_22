@@ -1,0 +1,55 @@
+body{
+   font-family: 'roboto';
+   background: rgb(114, 117, 118);
+}
+.container{
+ max-width: 1330px;
+ margin: 0 auto;
+ padding-right: 10px;
+ padding-left: 10px;
+ 
+}
+
+.blok-btn{
+display: flex;
+justify-content: center;
+align-items: center;
+background: cadetblue;
+
+border-radius: 5px;
+
+}
+.blok-btn:active{
+   background: rgb(253, 253, 253);
+}
+.blok-btn:hover{
+   transform-origin:center;
+   transform: rotate(180deg);
+   transition: 0.4s all 0.2s;
+   
+}
+.blok-btn__text{
+  font-weight: 500;
+  font-size: 1.2rem;
+  color: rgb(255, 255, 255);
+  padding: 15px 30px;
+}
+.blok-btn__text:hover{
+   transform-origin:center;
+   transform: rotate(-180deg);
+   transition: 0.5s all 0.2s;
+}
+.blok-btn__text:active{
+   color: cadetblue;
+}
+.color{
+   color: rgb(18, 249, 53);
+}
+
+.h2{
+   font-weight: 700;
+   font-size: 2rem;
+   color: rgb(68, 95, 213);
+   
+   filter: drop-shadow(10px 10px 3px rgb(69, 69, 69));
+}
